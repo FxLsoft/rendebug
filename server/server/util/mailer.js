@@ -6,7 +6,7 @@ let transporter = nodemailer.createTransport({
     secureConnection: true,
     auth: {
         user: '1027061303@qq.com',
-        pass: 'hblvcvbfqbcdbcda'
+        pass: '***********'
     }
 });
 
