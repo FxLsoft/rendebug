@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascripts/test/test.js"></script>
+    <script src='http://127.0.0.1:3000/rendebug.js?appId='></script>
+    <!-- <script type="text/javascript" src="/javascripts/rendebug.js"></script> -->
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <button onclick="testUndefined()">测试 undefined</button>
+    <button onclick="testXhr()">测试 xhr</button>
+    <button onclick="testPromise()">测试 promise catch</button>
+  </body>
+</html>

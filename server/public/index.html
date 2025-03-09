@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rendebug平台</title>
+    <script type="text/javascript" src="//cdn.bootcss.com/vue/2.5.1/vue.min.js"></script>
+    <script type="text/javascript" src="/javascripts/main.js"></script>
+    <link href="/stylesheets/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app"></div>
+    <script>
+        const { RadioBox } = common.components;
+        var app = new Vue({
+            el: '#app',
+            template: `<div>
+                <button class="chime-btn default">Normal</button>chime-btn<br/>
+
+                <button class="chime-btn">Normal</button>chime-btn<br/>
+                <button class="chime-btn">Long Text Button</button>chime-btn<br/>
+                <button class="chime-btn" disabled>Long Text Button</button>chime-btn(disabled)<br/>
+
+                <button class="chime-btn primary">Normal</button>chime-btn primary<br/>
+                <button class="chime-btn primary">Long Text Button</button>chime-btn primary<br/>
+                <button class="chime-btn primary" disabled>Long Text Button</button>chime-btn primary(disabled)<br/>
+
+                <button class="chime-btn warning">Normal</button>chime-btn warning<br/>
+                <button class="chime-btn warning">Long Text Button</button>chime-btn warning<br/>
+                <button class="chime-btn warning" disabled>Long Text Button</button>chime-btn warning(disabled)<br/>
+                
+                <button class="chime-btn ghost-blue">Normal</button>chime-btn ghost-blue<br/>
+                <button class="chime-btn ghost-blue">Long Text Button</button>chime-btn ghost-blue<br/>
+                <button class="chime-btn ghost-blue" disabled>Long Text Button</button>chime-btn ghost-blue(disabled)<br/>
+
+                <button class="chime-btn ghost-red">Normal</button>chime-btn ghost-red<br/>
+                <button class="chime-btn ghost-red">Long Text Button</button>chime-btn ghost-red<br/>
+                <button class="chime-btn ghost-red" disabled>Long Text Button</button>chime-btn ghost-red(disabled)<br/>
+                <div class="ghost-wrapper">
+                    <button class="chime-btn ghost-white">Normal</button>ghost-btn white<br/>
+                    <button class="chime-btn ghost-white">Long Text Button</button>ghost-btn white<br/>
+                    <button class="chime-btn ghost-white" disabled>Long Text Button</button>ghost-btn white(disabled)<br/>
+                </div>
+                <button class="chime-btn invisible">Normal</button>invisible-btn<br/>
+                <button class="chime-btn invisible">Long Text Button</button>invisible-btn<br/>
+                <button class="chime-btn invisible" disabled>Long Text Button</button>invisible-btn(disabled)<br/>
+            </div>
+            `,
+            data: {
+                
+            },
+            methods: {
+                
+            }
+        });
+    </script>
+</body
